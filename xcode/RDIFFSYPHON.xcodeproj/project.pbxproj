@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,25 +12,36 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		15F0FF4FDD344A4B91D1920F /* syphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13A1D904FFEA4723A2FA4BFF /* syphonClient.mm */; };
+		37A0188F18FF68C700E258B5 /* refraction_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37A0188E18FF68C700E258B5 /* refraction_vert.glsl */; };
+		37A0189118FF68CC00E258B5 /* passThru_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37A0189018FF68CC00E258B5 /* passThru_vert.glsl */; };
+		37A0189318FF68D100E258B5 /* passfrag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37A0189218FF68D100E258B5 /* passfrag.glsl */; };
+		37A0189518FF68D500E258B5 /* gsrd_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 37A0189418FF68D500E258B5 /* gsrd_frag.glsl */; };
+		37A0189818FF6AE200E258B5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37A0189718FF6AE200E258B5 /* 1.jpg */; };
+		37E5FCDA429947479B22F7FF /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5C608B411BE4B55B5E17981 /* CinderApp.icns */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C17309CCC4E942FB823A41D7 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */; };
-		FE898AE0651A45D49A1B4B9F /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */; };
-		A42FB9F9A6C24721B4755622 /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DE9F489CB4DC994EE6EE8 /* SyphonNameboundClient.m */; };
-		E7758D67F49B44878E78268B /* SyphonNameboundClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BACD6E4995646B19A1B3D58 /* SyphonNameboundClient.h */; };
-		5D4EB6A00A854FC28425E229 /* syphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14E7A259CF344C0D8966E74C /* syphonServerDirectory.mm */; };
 		5B9022CE9CC0463CA2F52783 /* syphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FA44D94106B43BB9D213FAB /* syphonServer.mm */; };
-		15F0FF4FDD344A4B91D1920F /* syphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13A1D904FFEA4723A2FA4BFF /* syphonClient.mm */; };
-		A910F81F6BD2439CA68ED441 /* syphonServerDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2BC263901F4A8A8A36153F /* syphonServerDirectory.h */; };
-		632B9846D8134118B8C3BC25 /* syphonServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EAE80EDF5B4472AE8DF329 /* syphonServer.h */; };
-		589E3846DCDE44C3B0B0237A /* syphonClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 198D2A5A0C044447860BF805 /* syphonClient.h */; };
-		543CCFEB8CD34FE78C526F1B /* cinderSyphon.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F8B485EE264E47B4A51AF0 /* cinderSyphon.h */; };
-		A8EC2FF140D1403F93F933D3 /* RDIFFSYPHON_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 71C0B290BB5546ABB66D1258 /* RDIFFSYPHON_Prefix.pch */; };
-		37E5FCDA429947479B22F7FF /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5C608B411BE4B55B5E17981 /* CinderApp.icns */; };
-		02DCEFB2A9DF408181DFA39C /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = B31A4964224542A4B8C0C479 /* Resources.h */; };
+		5D4EB6A00A854FC28425E229 /* syphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14E7A259CF344C0D8966E74C /* syphonServerDirectory.mm */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A42FB9F9A6C24721B4755622 /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DE9F489CB4DC994EE6EE8 /* SyphonNameboundClient.m */; };
+		C17309CCC4E942FB823A41D7 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */; };
 		D160812A35B54AD7BF5E2530 /* RDIFFSYPHONApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C605703009140A6992236A3 /* RDIFFSYPHONApp.cpp */; };
+		FE898AE0651A45D49A1B4B9F /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFB170F955C1409BBBDCF4EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				C17309CCC4E942FB823A41D7 /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -38,27 +49,32 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0B7DE9F489CB4DC994EE6EE8 /* SyphonNameboundClient.m */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = SyphonNameboundClient.m; path = ../blocks/Syphon/lib/SyphonNameboundClient.m; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13A1D904FFEA4723A2FA4BFF /* syphonClient.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = syphonClient.mm; path = ../blocks/Syphon/src/syphonClient.mm; sourceTree = "<group>"; };
+		14E7A259CF344C0D8966E74C /* syphonServerDirectory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = syphonServerDirectory.mm; path = ../blocks/Syphon/src/syphonServerDirectory.mm; sourceTree = "<group>"; };
+		198D2A5A0C044447860BF805 /* syphonClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = syphonClient.h; path = ../blocks/Syphon/src/syphonClient.h; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		37A0188E18FF68C700E258B5 /* refraction_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = refraction_vert.glsl; sourceTree = "<group>"; };
+		37A0189018FF68CC00E258B5 /* passThru_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = passThru_vert.glsl; sourceTree = "<group>"; };
+		37A0189218FF68D100E258B5 /* passfrag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = passfrag.glsl; sourceTree = "<group>"; };
+		37A0189418FF68D500E258B5 /* gsrd_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gsrd_frag.glsl; sourceTree = "<group>"; };
+		37A0189718FF6AE200E258B5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3FA44D94106B43BB9D213FAB /* syphonServer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = syphonServer.mm; path = ../blocks/Syphon/src/syphonServer.mm; sourceTree = "<group>"; };
+		44F8B485EE264E47B4A51AF0 /* cinderSyphon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cinderSyphon.h; path = ../blocks/Syphon/src/cinderSyphon.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		5C605703009140A6992236A3 /* RDIFFSYPHONApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = RDIFFSYPHONApp.cpp; path = ../src/RDIFFSYPHONApp.cpp; sourceTree = "<group>"; };
+		6D0A0CB44E8B424A8507A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C0B290BB5546ABB66D1258 /* RDIFFSYPHON_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = RDIFFSYPHON_Prefix.pch; sourceTree = "<group>"; };
+		8BACD6E4995646B19A1B3D58 /* SyphonNameboundClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SyphonNameboundClient.h; path = ../blocks/Syphon/lib/SyphonNameboundClient.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* RDIFFSYPHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDIFFSYPHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C605703009140A6992236A3 /* RDIFFSYPHONApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/RDIFFSYPHONApp.cpp; sourceTree = "<group>"; name = RDIFFSYPHONApp.cpp; };
-		B31A4964224542A4B8C0C479 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		D5C608B411BE4B55B5E17981 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		6D0A0CB44E8B424A8507A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		71C0B290BB5546ABB66D1258 /* RDIFFSYPHON_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = RDIFFSYPHON_Prefix.pch; sourceTree = "<group>"; name = RDIFFSYPHON_Prefix.pch; };
-		44F8B485EE264E47B4A51AF0 /* cinderSyphon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/Syphon/src/cinderSyphon.h; sourceTree = "<group>"; name = cinderSyphon.h; };
-		198D2A5A0C044447860BF805 /* syphonClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/Syphon/src/syphonClient.h; sourceTree = "<group>"; name = syphonClient.h; };
-		E7EAE80EDF5B4472AE8DF329 /* syphonServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/Syphon/src/syphonServer.h; sourceTree = "<group>"; name = syphonServer.h; };
-		FE2BC263901F4A8A8A36153F /* syphonServerDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/Syphon/src/syphonServerDirectory.h; sourceTree = "<group>"; name = syphonServerDirectory.h; };
-		13A1D904FFEA4723A2FA4BFF /* syphonClient.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../blocks/Syphon/src/syphonClient.mm; sourceTree = "<group>"; name = syphonClient.mm; };
-		3FA44D94106B43BB9D213FAB /* syphonServer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../blocks/Syphon/src/syphonServer.mm; sourceTree = "<group>"; name = syphonServer.mm; };
-		14E7A259CF344C0D8966E74C /* syphonServerDirectory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../blocks/Syphon/src/syphonServerDirectory.mm; sourceTree = "<group>"; name = syphonServerDirectory.mm; };
-		8BACD6E4995646B19A1B3D58 /* SyphonNameboundClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/Syphon/lib/SyphonNameboundClient.h; sourceTree = "<group>"; name = SyphonNameboundClient.h; };
-		0B7DE9F489CB4DC994EE6EE8 /* SyphonNameboundClient.m */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ../blocks/Syphon/lib/SyphonNameboundClient.m; sourceTree = "<group>"; name = SyphonNameboundClient.m; };
-		AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ../blocks/Syphon/lib/Syphon.framework; sourceTree = "<group>"; name = Syphon.framework; };
+		AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Syphon.framework; path = ../blocks/Syphon/lib/Syphon.framework; sourceTree = "<group>"; };
+		B31A4964224542A4B8C0C479 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		D5C608B411BE4B55B5E17981 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		E7EAE80EDF5B4472AE8DF329 /* syphonServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = syphonServer.h; path = ../blocks/Syphon/src/syphonServer.h; sourceTree = "<group>"; };
+		FE2BC263901F4A8A8A36153F /* syphonServerDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = syphonServerDirectory.h; path = ../blocks/Syphon/src/syphonServerDirectory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +97,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				0F2FB57545B14089B47966B7 /* Syphon */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				5C605703009140A6992236A3 /* RDIFFSYPHONApp.cpp */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		0F2FB57545B14089B47966B7 /* Syphon */ = {
+			isa = PBXGroup;
+			children = (
+				B8D53A892B494E91BAF46C4C /* src */,
+				EAA46B0EB5B44050BC9AFD7D /* lib */,
+			);
+			name = Syphon;
 			sourceTree = "<group>";
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
@@ -134,6 +167,38 @@
 			name = RDIFFSYPHON;
 			sourceTree = "<group>";
 		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B31A4964224542A4B8C0C479 /* Resources.h */,
+				71C0B290BB5546ABB66D1258 /* RDIFFSYPHON_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37A0188E18FF68C700E258B5 /* refraction_vert.glsl */,
+				37A0189018FF68CC00E258B5 /* passThru_vert.glsl */,
+				37A0189218FF68D100E258B5 /* passfrag.glsl */,
+				37A0189418FF68D500E258B5 /* gsrd_frag.glsl */,
+				37A0189718FF6AE200E258B5 /* 1.jpg */,
+				D5C608B411BE4B55B5E17981 /* CinderApp.icns */,
+				6D0A0CB44E8B424A8507A092 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8D53A892B494E91BAF46C4C /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,50 +221,6 @@
 				AF5571E5F19D4D39A1EB8EE0 /* Syphon.framework */,
 			);
 			name = lib;
-			sourceTree = "<group>";
-		};
-		0F2FB57545B14089B47966B7 /* Syphon */ = {
-			isa = PBXGroup;
-			children = (
-				B8D53A892B494E91BAF46C4C /* src */,
-				EAA46B0EB5B44050BC9AFD7D /* lib */,
-			);
-			name = Syphon;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				0F2FB57545B14089B47966B7 /* Syphon */,
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				B31A4964224542A4B8C0C479 /* Resources.h */,
-				71C0B290BB5546ABB66D1258 /* RDIFFSYPHON_Prefix.pch */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D5C608B411BE4B55B5E17981 /* CinderApp.icns */,
-				6D0A0CB44E8B424A8507A092 /* Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
-				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +250,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RDIFFSYPHON" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -253,7 +276,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A0189318FF68D100E258B5 /* passfrag.glsl in Resources */,
 				37E5FCDA429947479B22F7FF /* CinderApp.icns in Resources */,
+				37A0189518FF68D500E258B5 /* gsrd_frag.glsl in Resources */,
+				37A0189818FF6AE200E258B5 /* 1.jpg in Resources */,
+				37A0189118FF68CC00E258B5 /* passThru_vert.glsl in Resources */,
+				37A0188F18FF68C700E258B5 /* refraction_vert.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,27 +307,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = ../blocks/Syphon/lib;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RDIFFSYPHON_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = RDIFFSYPHON_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = RDIFFSYPHON;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
-				FRAMEWORK_SEARCH_PATHS = (
-					../blocks/Syphon/lib,
-				);
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -309,6 +335,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = ../blocks/Syphon/lib;
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
@@ -321,22 +348,19 @@
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = RDIFFSYPHON;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
-				FRAMEWORK_SEARCH_PATHS = (
-					../blocks/Syphon/lib,
-				);
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../cinder";
+				CINDER_PATH = ../../../cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -349,11 +373,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../cinder";
+				CINDER_PATH = ../../../cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -385,16 +409,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-		AFB170F955C1409BBBDCF4EB /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 6;
-			files = (
-				C17309CCC4E942FB823A41D7 /* Syphon.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }
