@@ -9,7 +9,9 @@
 
 #define RES_REFRACTION_VERT      CINDER_RESOURCE( ../resources/, refraction_vert.glsl,		130, GLSL	)
 
-#define RES_STARTER_IMAGE        CINDER_RESOURCE( ../resources/, 1.jpg,			131, JPG	)
+#define RES_STARTER_IMAGE2        CINDER_RESOURCE( ../resources/, me.png,			133, JPG	)
+
+#define RES_STARTER_IMAGE        CINDER_RESOURCE( ../resources/, shapes220.png,			131, JPG	)
 
 
 #define PASS_FRAG      CINDER_RESOURCE( ../resources/, passfrag.glsl,		132, GLSL	)

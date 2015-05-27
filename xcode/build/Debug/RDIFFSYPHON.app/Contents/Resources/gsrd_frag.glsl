@@ -81,8 +81,12 @@ void main(void)
 	u += du*0.6;
 	v += dv*0.6;
     
+    if (texture2D( srcTexture, texCoord ).a == 0.){
+        gl_FragColor = vec4( clamp( u, 0.0, 1.0 ), 1.0 - u/v, clamp( v, 0.0, 1.0 ), 0.0 );
 
-    gl_FragColor = vec4( clamp( u, 0.0, 1.0 ), 1.0 - u/v, clamp( v, 0.0, 1.0 ), 1.0 );
+    }else{
+        gl_FragColor = vec4( clamp( u, 0.0, 1.0 ), 1.0 - u/v, clamp( v, 0.0, 1.0 ), 1.0 );
+    }
 }
 
 

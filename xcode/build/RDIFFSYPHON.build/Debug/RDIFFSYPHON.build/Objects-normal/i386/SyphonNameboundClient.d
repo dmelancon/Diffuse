@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/dan/Documents/CinderProjects/RDIFFSYPHON/blocks/Syphon/lib/SyphonNameboundClient.m \
+  /Users/dan/Documents/Code/CinderProjects/RDIFFSYPHON/blocks/Syphon/lib/SyphonNameboundClient.m \
   ../blocks/Syphon/lib/SyphonNameboundClient.h \
   ../blocks/Syphon/lib/Syphon.framework/Headers/Syphon.h \
   ../blocks/Syphon/lib/Syphon.framework/Headers/SyphonServerDirectory.h \
